@@ -1,0 +1,104 @@
+.app-container {
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  height: 100px;
+  width: 80vw;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+.userName {
+  color: black;
+  font-size: 20px;
+}
+.greeting {
+  font-size: 16px;
+  color: black;
+}
+.name {
+  color: blue;
+  font-size: 16px;
+}
+.money-details-container {
+  height: 100px;
+  width: 80vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+.balance-card {
+  height: 80px;
+  width: 20vw;
+  background-color: #ecfccb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #84cc16;
+  border-radius: 5px;
+}
+.income-card {
+  height: 80px;
+  width: 20vw;
+  background-color: #cffafe;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #06b6d4;
+  border-radius: 5px;
+}
+.expenses-card {
+  height: 80px;
+  width: 20vw;
+  background-color: #ede9fe;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #7c3aed;
+  border-radius: 5px;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.balance-card-image {
+  margin: 30px;
+  height: 40px;
+  width: 40px;
+}
+.amount-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.balance-heading {
+  font-size: 14px;
+  margin: 10px;
+}
+.balance {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+}
